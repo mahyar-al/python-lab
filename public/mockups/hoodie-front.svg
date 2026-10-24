@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" fill="none">
+  <!-- Morico Style - Architectural Hoodie 400g (Front View) -->
+  <defs>
+    <linearGradient id="hoodieGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F0F4F7" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="hoodieShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#111110" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Torso & Sleeves Outline -->
+  <path d="M220 130 C250 145 350 145 380 130 L480 195 L530 460 L455 480 L435 320 L435 660 C435 670 425 675 415 675 L185 675 C175 675 165 670 165 660 L165 320 L145 480 L70 460 L120 195 Z" 
+        fill="url(#hoodieGrad)" 
+        stroke="#111110" 
+        stroke-width="2.5" 
+        stroke-linejoin="round"
+        filter="url(#hoodieShadow)"/>
+
+  <!-- Structured Double-layer Hood -->
+  <path d="M220 130 C190 70 230 40 300 40 C370 40 410 70 380 130 C340 115 260 115 220 130 Z" 
+        fill="#FFFFFF" 
+        stroke="#111110" 
+        stroke-width="2.2" 
+        stroke-linejoin="round"/>
+  
+  <!-- Hood Inner Fold Line -->
+  <path d="M255 125 C240 75 270 55 300 55 C330 55 360 75 345 125" stroke="#4A5560" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <!-- Kangaroo Pocket -->
+  <path d="M220 480 L380 480 L400 590 L200 590 Z" 
+        fill="#FFFFFF" 
+        stroke="#111110" 
+        stroke-width="2" 
+        stroke-linejoin="round"/>
+  <!-- Pocket Side Openings -->
+  <line x1="200" y1="590" x2="220" y2="480" stroke="#111110" stroke-width="2.2"/>
+  <line x1="400" y1="590" x2="380" y2="480" stroke="#111110" stroke-width="2.2"/>
+
+  <!-- Ribbed Cuffs -->
+  <path d="M70 460 L145 480" stroke="#111110" stroke-width="2"/>
+  <path d="M530 460 L455 480" stroke="#111110" stroke-width="2"/>
+
+  <!-- Ribbed Bottom Hem -->
+  <rect x="165" y="645" width="270" height="30" rx="3" fill="#FFFFFF" stroke="#111110" stroke-width="2"/>
+  <line x1="165" y1="645" x2="435" y2="645" stroke="#4A5560" stroke-width="1.2" stroke-dasharray="3 3"/>
+</svg>

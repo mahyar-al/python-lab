@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" fill="none">
+  <!-- Morico Style - Luxury Heavyweight Boxy Tee (Back View) -->
+  <defs>
+    <linearGradient id="teeGradBack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#EFF3F6" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="softShadowBack" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#111110" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Main Body Contour -->
+  <path d="M210 115 C250 110 350 110 390 115 L485 170 L535 270 L465 305 L445 250 L445 660 C445 670 435 675 425 675 L175 675 C165 675 155 670 155 660 L155 250 L135 305 L65 270 L115 170 Z" 
+        fill="url(#teeGradBack)" 
+        stroke="#111110" 
+        stroke-width="2.5" 
+        stroke-linejoin="round"
+        filter="url(#softShadowBack)"/>
+
+  <!-- Back High Neckline Ribbing -->
+  <path d="M210 115 C250 108 350 108 390 115 C370 125 230 125 210 115 Z" 
+        fill="#FFFFFF" 
+        stroke="#111110" 
+        stroke-width="2" 
+        stroke-linejoin="round"/>
+
+  <!-- Back Yoke Reinforcement Stitching -->
+  <path d="M205 130 C250 125 350 125 395 130" 
+        fill="none" 
+        stroke="#4A5560" 
+        stroke-width="1.2" 
+        stroke-dasharray="3 3"/>
+
+  <!-- Dropped Shoulder Seams -->
+  <line x1="210" y1="115" x2="155" y2="250" stroke="#4A5560" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6"/>
+  <line x1="390" y1="115" x2="445" y2="250" stroke="#4A5560" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6"/>
+
+  <!-- Sleeve Hems -->
+  <path d="M65 270 L135 305" stroke="#111110" stroke-width="2"/>
+  <path d="M535 270 L465 305" stroke="#111110" stroke-width="2"/>
+  <line x1="75" y1="265" x2="135" y2="295" stroke="#4A5560" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+  <line x1="525" y1="265" x2="465" y2="295" stroke="#4A5560" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+
+  <!-- Bottom Hem Double Stitch -->
+  <line x1="155" y1="655" x2="445" y2="655" stroke="#4A5560" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.6"/>
+  <line x1="155" y1="660" x2="445" y2="660" stroke="#4A5560" stroke-width="1" stroke-dasharray="4 3" opacity="0.4"/>
+</svg>

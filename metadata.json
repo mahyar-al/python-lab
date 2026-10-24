@@ -1,0 +1,6 @@
+{
+  "name": "MORICO STYLE",
+  "description": "فروشگاه اینترنتی چندمنظوره و استودیوی طراحی MORICO STYLE - کالای دیجیتال، دکوراسیون و نور، پوشاک و محصولات سفارشی",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

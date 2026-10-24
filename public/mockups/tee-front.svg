@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" fill="none">
+  <!-- Morico Style - Luxury Heavyweight Boxy Tee (Front View) -->
+  <defs>
+    <linearGradient id="teeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F2F5F8" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="softShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#111110" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Main Body Contour -->
+  <path d="M210 115 C240 135 360 135 390 115 L485 170 L535 270 L465 305 L445 250 L445 660 C445 670 435 675 425 675 L175 675 C165 675 155 670 155 660 L155 250 L135 305 L65 270 L115 170 Z" 
+        fill="url(#teeGrad)" 
+        stroke="#111110" 
+        stroke-width="2.5" 
+        stroke-linejoin="round"
+        filter="url(#softShadow)"/>
+
+  <!-- Crewneck Collar Ribbing -->
+  <path d="M210 115 C240 145 360 145 390 115 C370 100 230 100 210 115 Z" 
+        fill="#FFFFFF" 
+        stroke="#111110" 
+        stroke-width="2.2" 
+        stroke-linejoin="round"/>
+  
+  <path d="M225 125 C250 148 350 148 375 125" 
+        fill="none" 
+        stroke="#4A5560" 
+        stroke-width="1.2" 
+        stroke-dasharray="3 3"/>
+
+  <!-- Dropped Shoulder Seams -->
+  <line x1="210" y1="115" x2="155" y2="250" stroke="#4A5560" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6"/>
+  <line x1="390" y1="115" x2="445" y2="250" stroke="#4A5560" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6"/>
+
+  <!-- Sleeve Hems -->
+  <path d="M65 270 L135 305" stroke="#111110" stroke-width="2"/>
+  <path d="M535 270 L465 305" stroke="#111110" stroke-width="2"/>
+  <line x1="75" y1="265" x2="135" y2="295" stroke="#4A5560" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+  <line x1="525" y1="265" x2="465" y2="295" stroke="#4A5560" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+
+  <!-- Bottom Hem -->
+  <line x1="155" y1="655" x2="445" y2="655" stroke="#4A5560" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.6"/>
+
+  <!-- Label tag inside neck -->
+  <rect x="285" y="122" width="30" height="18" rx="2" fill="#111110"/>
+  <text x="300" y="134" font-family="'Cormorant Garamond', serif" font-size="9" fill="#FFFFFF" text-anchor="middle" font-weight="bold">MC</text>
+</svg>

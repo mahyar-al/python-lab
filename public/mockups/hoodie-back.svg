@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" fill="none">
+  <!-- Morico Style - Architectural Hoodie 400g (Back View) -->
+  <defs>
+    <linearGradient id="hoodieGradBack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#EFF3F6" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="hoodieShadowBack" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#111110" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Torso & Sleeves Outline -->
+  <path d="M220 130 C250 120 350 120 380 130 L480 195 L530 460 L455 480 L435 320 L435 660 C435 670 425 675 415 675 L185 675 C175 675 165 670 165 660 L165 320 L145 480 L70 460 L120 195 Z" 
+        fill="url(#hoodieGradBack)" 
+        stroke="#111110" 
+        stroke-width="2.5" 
+        stroke-linejoin="round"
+        filter="url(#hoodieShadowBack)"/>
+
+  <!-- Hood resting on upper back -->
+  <path d="M210 130 C190 70 230 40 300 40 C370 40 410 70 390 130 C360 210 240 210 210 130 Z" 
+        fill="#FFFFFF" 
+        stroke="#111110" 
+        stroke-width="2.2" 
+        stroke-linejoin="round"/>
+  
+  <!-- Hood Center Seam -->
+  <line x1="300" y1="40" x2="300" y2="180" stroke="#4A5560" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- Ribbed Bottom Hem -->
+  <rect x="165" y="645" width="270" height="30" rx="3" fill="#FFFFFF" stroke="#111110" stroke-width="2"/>
+  <line x1="165" y1="645" x2="435" y2="645" stroke="#4A5560" stroke-width="1.2" stroke-dasharray="3 3"/>
+</svg>

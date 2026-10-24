@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <script>
+      try {
+        localStorage.removeItem('morico_admin_dark_mode');
+        localStorage.removeItem('theme');
+        localStorage.removeItem('darkMode');
+        document.documentElement.classList.remove('dark');
+        document.documentElement.style.colorScheme = 'light';
+      } catch (e) {}
+    </script>
+    <title>MORICO STYLE | فروشگاه اینترنتی چندمنظوره و استودیوی طراحی</title>
+    <meta name="description" content="فروشگاه اینترنتی چندمنظوره MORICO STYLE — خرید آنلاین کالای دیجیتال، نور و دکوراسیون، پوشاک باکیفیت و استودیوی اختصاصی طراحی و سفارش." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="MORICO STYLE | فروشگاه اینترنتی چندمنظوره و استودیوی طراحی" />
+    <meta property="og:description" content="فروشگاه اینترنتی چندمنظوره MORICO STYLE — خرید آنلاین کالای دیجیتال، نور و دکوراسیون، پوشاک باکیفیت و استودیوی اختصاصی طراحی و سفارش." />
+    <meta property="og:image" content="/brand/morico-logo.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="MORICO STYLE | فروشگاه اینترنتی چندمنظوره و استودیوی طراحی" />
+    <meta name="twitter:description" content="فروشگاه اینترنتی چندمنظوره MORICO STYLE — خرید آنلاین کالای دیجیتال، نور و دکوراسیون، پوشاک باکیفیت و استودیوی اختصاصی طراحی و سفارش." />
+    <meta name="twitter:image" content="/brand/morico-logo.jpg" />
+
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <!-- Iranian Font (Vazirmatn & Vazirmatn FD) Preloads -->
+    <link rel="preload" href="/fonts/Vazirmatn[wght].woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/Vazirmatn-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/Vazirmatn-Medium.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/Vazirmatn-SemiBold.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/Vazirmatn-Bold.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/Vazirmatn-FD-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/Vazirmatn-FD-Bold.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/cormorant-garamond-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/cormorant-garamond-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- Google Fonts Vazirmatn CDN Fallback -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-[#FFFFFF] text-[#111110] antialiased selection:bg-[#111110] selection:text-[#FFFFFF] min-h-screen">
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

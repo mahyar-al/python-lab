@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" fill="none">
+  <!-- Morico Style - Luxury Heavyweight Boxy Tee (Left Side View) -->
+  <defs>
+    <linearGradient id="teeGradLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#EFF3F6" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="softShadowSide" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#111110" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Torso Contour (Profile) -->
+  <path d="M220 120 C240 115 360 115 380 120 L400 660 C400 670 390 675 380 675 L220 675 C210 675 200 670 200 660 Z" 
+        fill="url(#teeGradLeft)" 
+        stroke="#111110" 
+        stroke-width="2.5" 
+        stroke-linejoin="round"
+        filter="url(#softShadowSide)"/>
+
+  <!-- Collar Arc in Profile -->
+  <path d="M220 120 C240 135 340 135 360 120" stroke="#111110" stroke-width="2" fill="none"/>
+  <path d="M230 125 C250 140 330 140 350 125" stroke="#4A5560" stroke-width="1.2" stroke-dasharray="3 3" fill="none"/>
+
+  <!-- Left Sleeve Hanging Down in Forefront -->
+  <path d="M245 140 C280 135 320 135 355 140 L385 360 C385 370 375 375 365 375 L235 375 C225 375 215 370 215 360 Z" 
+        fill="#FFFFFF" 
+        stroke="#111110" 
+        stroke-width="2.2" 
+        stroke-linejoin="round"/>
+
+  <!-- Sleeve Shoulder Seam -->
+  <path d="M245 140 C290 150 310 150 355 140" stroke="#4A5560" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <!-- Sleeve Cuff Hem -->
+  <line x1="215" y1="365" x2="385" y2="365" stroke="#4A5560" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+  <!-- Torso Side Seam (under sleeve) -->
+  <line x1="300" y1="375" x2="300" y2="675" stroke="#4A5560" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+
+  <!-- Bottom Hem Stitching -->
+  <line x1="200" y1="660" x2="400" y2="660" stroke="#4A5560" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.6"/>
+
+  <!-- Side View Badge -->
+  <rect x="275" y="420" width="50" height="22" rx="4" fill="#111110" opacity="0.08"/>
+  <text x="300" y="435" font-family="'Vazirmatn', sans-serif" font-size="10" fill="#4A5560" text-anchor="middle">بغل چپ</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" fill="none">
+  <!-- Morico Style - Architectural Hoodie 400g (Left Side View) -->
+  <defs>
+    <linearGradient id="hoodieGradSide" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#EFF3F6" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="hoodieSideShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#111110" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Torso Contour -->
+  <path d="M220 130 C240 120 360 120 380 130 L400 660 C400 670 390 675 380 675 L220 675 C210 675 200 670 200 660 Z" 
+        fill="url(#hoodieGradSide)" 
+        stroke="#111110" 
+        stroke-width="2.5" 
+        stroke-linejoin="round"
+        filter="url(#hoodieSideShadow)"/>
+
+  <!-- Hood Side Profile -->
+  <path d="M220 130 C190 60 270 30 330 45 C380 60 390 100 370 140" 
+        fill="#FFFFFF" 
+        stroke="#111110" 
+        stroke-width="2.2" 
+        stroke-linejoin="round"/>
+
+  <!-- Left Long Sleeve in Profile -->
+  <path d="M245 150 C290 140 330 140 365 150 L385 520 C385 530 375 535 365 535 L235 535 C225 535 215 530 215 520 Z" 
+        fill="#FFFFFF" 
+        stroke="#111110" 
+        stroke-width="2.2" 
+        stroke-linejoin="round"/>
+
+  <!-- Sleeve Ribbed Cuff -->
+  <rect x="215" y="505" width="170" height="30" rx="2" fill="#FFFFFF" stroke="#111110" stroke-width="2"/>
+
+  <!-- Torso Side Seam -->
+  <line x1="300" y1="535" x2="300" y2="675" stroke="#4A5560" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+
+  <!-- Bottom Ribbed Hem -->
+  <rect x="200" y="645" width="200" height="30" rx="2" fill="#FFFFFF" stroke="#111110" stroke-width="2"/>
+
+  <!-- Side View Badge -->
+  <rect x="275" y="420" width="50" height="22" rx="4" fill="#111110" opacity="0.08"/>
+  <text x="300" y="435" font-family="'Vazirmatn', sans-serif" font-size="10" fill="#4A5560" text-anchor="middle">بغل چپ</text>
+</svg>
